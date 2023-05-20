@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 import numpy as np
-model = tf.keras.models.load_model('C:\Users\valen\Downloads\BEST_MODEL_STRONG.h5')
+model = tf.keras.models.load_model('C:\\Users\\valen\\Downloads\\BEST_MODEL_STRONG.h5')
 
 def predict(image):
     # Preprocess the image
